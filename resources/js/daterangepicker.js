@@ -72,6 +72,7 @@ export default (Alpine) => {
                                 timePicker: timePicker,
                                 timePickerIncrement: timePickerIncrement,
                                 handleApplyUsing : handleValueChangeUsing,
+                                showDropdowns: true,
                                 locale: {
                                     format: displayFormat,
                                         separator: " - ",
