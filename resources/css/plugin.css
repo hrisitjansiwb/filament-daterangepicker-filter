@@ -343,11 +343,11 @@
   }
 
   .daterangepicker .ranges li:hover {
-    color: #fff;
+    color: #999;
   }
 
   .daterangepicker .ranges li.active {
-    color: #fff;
+    color: #999;
   }
 
   /*  Larger Screen Styling */
