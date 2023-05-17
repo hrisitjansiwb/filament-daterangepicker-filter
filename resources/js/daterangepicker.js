@@ -107,8 +107,8 @@ export default (Alpine) => {
                                         firstDay: firstDay
                                 },
                                 ranges: {
-                                        [today]  :        [moment(), moment()],
-                                        [yesterday]:      [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+                                        // [today]  :        [moment(), moment()],
+                                        // [yesterday]:      [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
                                         [last_7_days]:    [moment().subtract(6, 'days'), moment()],
                                         [last_30_days]:   [moment().subtract(29, 'days'), moment()],
                                         [this_month]:     [moment().startOf('month'), moment().endOf('month')],
